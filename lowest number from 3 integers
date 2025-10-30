@@ -1,0 +1,22 @@
+/* lowest number betn 3 ing */
+package com.tka.demo1;
+import java.util.Scanner;
+public class low3 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System .out.println("Enter  3 numbers ");
+	  int a = sc.nextInt();
+	  int b = sc.nextInt();
+	  int c = sc.nextInt();
+	  
+	  if (a <= b && a <=c) {
+		  System.out.println("less  number is a"+a);
+	  }
+	  else if (b <= a && b <= c) {
+		  System.out.println("less  number is b"+b);
+	  }
+	  else {
+		  System.out.println("less  number is c "+c);
+	  }
+}
+}
