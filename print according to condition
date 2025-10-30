@@ -1,0 +1,22 @@
+package com.tka.demo1;
+import java.util.Scanner;
+public class check {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System .out.println("Enter   number ");
+	  int a = sc.nextInt();
+	  
+	  if (a%3==0) {
+		  System.out.println("mango");
+	  }
+	  else if (a%5==0) {
+		  System.out.println("apple");
+	  }
+	  else if (a%5==0 && a%3==0) {
+		  System.out.println("Mango & apple ");
+	  }
+	  else {
+		  System.out.println("number = " +a);
+	  }
+}
+}
